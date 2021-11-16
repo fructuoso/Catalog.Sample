@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Infra", "03. Infra", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.IoC", "Catalog.Sample\Infra.IoC\Infra.IoC.csproj", "{CF21D201-0792-4770-923E-AE586B82A6D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Repository.EntityFramework", "Infra.Repository.EntityFramework\Infra.Repository.EntityFramework.csproj", "{F028178E-8306-432B-B054-573CBA61BB11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CF21D201-0792-4770-923E-AE586B82A6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF21D201-0792-4770-923E-AE586B82A6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF21D201-0792-4770-923E-AE586B82A6D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F028178E-8306-432B-B054-573CBA61BB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F028178E-8306-432B-B054-573CBA61BB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F028178E-8306-432B-B054-573CBA61BB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F028178E-8306-432B-B054-573CBA61BB11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{38086D98-1FD0-41A5-BBF4-2F6AC10D15EF} = {883759A5-31A9-4A11-A3FE-C4874C205EE2}
 		{5D15978F-EB8E-4B41-BF72-E1931D9E58E4} = {883759A5-31A9-4A11-A3FE-C4874C205EE2}
 		{CF21D201-0792-4770-923E-AE586B82A6D3} = {7BE90918-5E8A-429E-8866-67B84FB8465D}
+		{F028178E-8306-432B-B054-573CBA61BB11} = {7BE90918-5E8A-429E-8866-67B84FB8465D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CBD9ED3E-1A5F-47C0-BB66-C5D49AF6ADBE}

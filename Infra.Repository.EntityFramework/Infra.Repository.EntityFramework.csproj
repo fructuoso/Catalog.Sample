@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+	  <AssemblyName>Catalog.Sample.Infra.Repository.EntityFramework</AssemblyName>
+	  <RootNamespace>Catalog.Sample.Infra.Repository.EntityFramework</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Catalog.Sample\Domain.Core\Domain.Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using Catalog.Sample.Domain.Core.Entity;
+using MediatR;
 using System.Reflection;
 
 namespace Microsoft.Extensions.DependencyInjection
@@ -8,6 +9,7 @@ namespace Microsoft.Extensions.DependencyInjection
         public static IServiceCollection AddDomainServices(this IServiceCollection services)
         {
             //RegisterCRUDS
+            services.RegisterCrud<Product, int>();
             return services;
         }
 

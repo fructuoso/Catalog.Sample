@@ -1,4 +1,8 @@
-﻿using System;
+﻿using Catalog.Sample.Domain.Core.Entity;
+using Catalog.Sample.Infra.Repository.EntityFramework;
+using Liquid.Repository.EntityFramework.Extensions;
+using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
@@ -6,6 +10,10 @@ namespace Microsoft.Extensions.DependencyInjection
     {
         private static IServiceCollection AddRepositories(this IServiceCollection services)
         {
+            Action<DbContextOptionsBuilder> options = (opt) => opt.UseInMemoryDatabase("CRUD");
+
+            services.AddLiquidEntityFramework<MyDbContext, Product, int>(options);
+
             return services;
         }
 
