@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Catalog.Sample.Domain.Core</AssemblyName>
+    <RootNamespace>Catalog.Sample.Domain.Core</RootNamespace>
+    <ProjectGuid>38086d98-1fd0-41a5-bbf4-2f6ac10d15ef</ProjectGuid>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Liquid.Repository" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entity\" />
+  </ItemGroup>
+  
+</Project>
